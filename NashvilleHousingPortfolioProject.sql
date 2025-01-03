@@ -9,7 +9,7 @@ From portfolio.nashvillehousing;
 
 Select 
 	SaleDate, 
-    STR_TO_DATE(SaleDate,'%M %d,%Y') 
+	STR_TO_DATE(SaleDate,'%M %d,%Y') 
 From portfolio.nashvillehousing;
 
 
